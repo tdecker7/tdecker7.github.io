@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+
+/* Header */
+.nav .user-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #fff;
+  text-align: center;
+}
+.user-circle i {
+  line-height: 50px;
+}
