@@ -177,8 +177,14 @@ p {
 /********************
 ** MISSION SECTION
 ********************/
+#mission-section {
+  height: auto;
+}
 #mission-section .content {
   padding: 75px 30px;
+}
+#mission-section iframe.video {
+  margin: 25px auto 0;
 }
 
 /********************
