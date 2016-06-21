@@ -279,7 +279,9 @@ p {
   -o-box-shadow: 1px 1px 2.5px 1px rgba(112,112,112,0.5);
   -ms-box-shadow: 1px 1px 2.5px 1px rgba(112,112,112,0.5);
 }
-
+#team h2.white {
+  margin-bottom: 30px;
+}
 /********************
 ** JUMBOTRON-CONTACT
 ********************/
