@@ -5,7 +5,8 @@ function initMap() {
   var map;
   map = new google.maps.Map(document.getElementById('map'), {
     center: {"lat" : 43.03898849999999, "lng" : -87.92607249999999},
-    zoom: 14
+    zoom: 14,
+    scrollwheel: false
   });
   var infowindow = new google.maps.InfoWindow({
     content: content,
