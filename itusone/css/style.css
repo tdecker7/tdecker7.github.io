@@ -305,7 +305,16 @@ p {
 textarea {
   min-height: 150px;
 }
-
+#map {
+  height: 500px;
+}
+#map .info-container > h2.infowindow-header {
+  font-family: 'Raleway', sans-serif;
+  margin: 0 0 10px 0;
+}
+#map .info-container > p {
+  font-size: 1.5em;
+}
 /********************
 ** FOOTER
 ********************/
