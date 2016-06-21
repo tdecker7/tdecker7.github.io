@@ -315,6 +315,11 @@ textarea {
 #map .info-container > p {
   font-size: 1.5em;
 }
+.gm-style-iw + div {
+  /* sets the display of the 'close' button in 
+     google maps infowindow to none -> doesn't show */
+  display: none;
+}
 /********************
 ** FOOTER
 ********************/
