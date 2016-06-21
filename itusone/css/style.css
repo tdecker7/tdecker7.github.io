@@ -294,7 +294,7 @@ p {
 }
 
 /********************
-** FOOTER
+** CONTACT
 ********************/
 #contact h2 {
   margin-bottom: 50px;
@@ -329,6 +329,19 @@ footer {
 }
 .footer a {
   color: #ffffff;
+}
+.footer li.social-media-link {
+  margin-top: 5px;
+}
+.footer .social-media-icon {
+  display: table-cell;
+  text-align: end;
+  padding: 9px 3px 0 0;
+  height: 50px;
+  width: 50px;
+  background-color: #b8b8b8;
+  color: #333333;
+  font-size: 3em;
 }
 @media (min-width: 400px) {
 
