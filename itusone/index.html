@@ -13,9 +13,21 @@
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <link rel="icon" type="image/ico" href="./favicon.ico"> <!-- icon in browser tab -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans|Raleway' rel='stylesheet' type='text/css'>
+    <!-- Load Angular and Angular Route -->
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular-route.js"></script>
+
+    <!-- Directives -->
+    <script src="app/shared/directives/footer.js"></script>
+    <script src="app/shared/directives/nav.js"></script>
+
+    <!-- Core Angular app components -->
+    <script src="app/app.js"></script>
+    <script src="app/app.routes.js"></script>
   </head>
-  <body>
-    <nav class="navbar navbar-fixed-top navbar-default">
+  <body ng-app="itusone">
+    <nav-template></nav-template>
+    <!-- <nav class="navbar navbar-fixed-top navbar-default">
       <div class="container">
         <div class="navbar-header">
           <a class="navbar-brand pull-xs-right pull-md-right pull-lg-right" href="#">
@@ -37,7 +49,7 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> -->
     <div class="jumbotron jumbotron-home">
       <div class="container-fluid content">
         <h3 class="headline-first">
@@ -59,10 +71,10 @@
               MODERNIZED SAFETY
             </h5>
             <h2>
-              Be proactive with safety by monitoring vital data from your crew members. 
+              Be proactive with safety by monitoring vital data from your crew members.
             </h2>
             <p>
-              We utilize sophisticated wearble technology to provide insight into the status of your 
+              We utilize sophisticated wearble technology to provide insight into the status of your
               workforce. Levaraging this information allows you to mitigate potentially catastrophic
               health risks.
             </p>
@@ -76,7 +88,7 @@
                 Workforce Analytics
               </p>
               <p>
-                Our unique data analytics highlight problems in your workforce. 
+                Our unique data analytics highlight problems in your workforce.
                 With this data you can know the times of day that crew members are
                 at the highest risk.
               </p>
@@ -101,7 +113,7 @@
                 Analytics Reporting
               </p>
               <p>
-                Discern trends and highlight the most stressful times on your workforce with 
+                Discern trends and highlight the most stressful times on your workforce with
                 our provided reports. These reports elicit insight into your workforce you'd never spot alone.
               </p>
             </div>
@@ -120,7 +132,7 @@
               ItusOne Technologies collects and analyzes biometric and kinematic data to
               hazardous jobs as safe as they can be. ItusOne seeks to revolutionize the safety
               industry by combining wearable technology and data analytics. If you'd like to learn
-              how ItusOne's solution could work for you 
+              how ItusOne's solution could work for you
               <a href="/itusone/contact.html" class="bold underline">contact us</a>
             </p>
           </div>

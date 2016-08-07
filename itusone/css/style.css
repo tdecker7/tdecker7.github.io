@@ -45,7 +45,7 @@ p {
   padding: 0 0 60px;
 }
 /********************
-** NAV 
+** NAV
 ********************/
 .navbar {
   background-color: #11103e;
@@ -83,7 +83,7 @@ p {
 ********************/
 .jumbotron-home {
   display: inline-block;
-  background-image: url('/itusone/img/const-small.jpg');
+  background-image: url('app/assets/img/const-small.jpg');
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -263,7 +263,7 @@ p {
 }
 
 /********************
-** TEAM-SECTION 
+** TEAM-SECTION
 ********************/
 #team {
   background-color: #2595ff;
@@ -318,7 +318,7 @@ textarea {
   font-size: 1.5em;
 }
 .gm-style-iw + div {
-  /* sets the display of the 'close' button in 
+  /* sets the display of the 'close' button in
      google maps infowindow to none -> doesn't show */
   display: none;
 }
@@ -367,7 +367,7 @@ footer {
 }
 @media (min-width: 660px) {
   /********************
-  ** TEAM-SECTION 
+  ** TEAM-SECTION
   ********************/
   #team .thumbnail {
     height: 375px;
@@ -425,6 +425,3 @@ footer {
     padding: 25% 0 0 0;
   }
 }
-
-
-
