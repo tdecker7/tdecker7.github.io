@@ -166,7 +166,7 @@ p {
 ********************/
 .jumbotron-mission {
   display: inline-block;
-  background-image: url('/itusone/img/tract-small.jpg');
+  background-image: url('../../img/tract-small.jpg');
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -192,7 +192,7 @@ p {
 ********************/
 .jumbotron-product {
   display: inline-block;
-  background-image: url('/itusone/img/safety-small.jpg');
+  background-image: url('../../img/safety-small.jpg');
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -254,7 +254,7 @@ p {
 ********************/
 .jumbotron-team {
   display: inline-block;
-  background-image: url('/itusone/img/team-small.jpg');
+  background-image: url('../../img/team-small.jpg');
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -287,7 +287,7 @@ p {
 ********************/
 .jumbotron-contact {
   display: inline-block;
-  background-image: url('/itusone/img/contact-small.jpg');
+  background-image: url('../../img/contact-small.jpg');
   background-size: cover;
   height: 100vh;
   width: 100%;
