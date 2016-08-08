@@ -83,7 +83,7 @@ p {
 ********************/
 .jumbotron-home {
   display: inline-block;
-  background-image: url('../../img/const-small.jpg');
+  background-image: url('../img/const-small.jpg');
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -103,7 +103,7 @@ p {
   -o-transition: all 1s ease-in-out;
 }
 .headline-first {
-  opacity: 0;
+  opacity: 1;
 }
 .content h3 {
   font-family: 'Raleway', sans-serif;
@@ -118,7 +118,7 @@ p {
   -o-transition: all 1s ease-in-out;
 }
 .headline-second {
-  opacity: 0;
+  opacity: 1;
 }
 .content .btn {
   padding: 12px 24px;

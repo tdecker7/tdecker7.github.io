@@ -1,5 +1,5 @@
 angular.module('footerDirective', [])
-  .directive('footertemplate', function () {
+  .directive('footerTemplate', function () {
     return {
       templateUrl: 'app/shared/html/footer.html'
     }
