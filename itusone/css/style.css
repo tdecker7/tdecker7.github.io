@@ -381,6 +381,13 @@ img.stack41 {
   height: 75px;
   width: 75px;
 }
+input.btn-send {
+  padding: 6px 12px !important; /* Override previous button type's padding */
+  border-radius: 0;
+  font-size: 14px;
+  float: right;
+  margin: 0 auto 20px;
+}
 @media (min-width: 400px) {
 
 }
