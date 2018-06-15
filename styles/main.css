@@ -27,11 +27,16 @@ p {
 }
 
 /* loader */
-.loader {
+#loader {
   color: black;
   height: 100vh;
   z-index: 10;
   background-color: white;
+  -webkit-transition: height 1s;
+  -moz-transition: height 1s;
+  -ms-transition: height 1s;
+  -o-transition: height 1s;
+  transition: height 1s;
 }
 /* sk-cube credit: http://tobiasahlin.com/spinkit/ */
 .sk-cube-grid {
@@ -95,8 +100,23 @@ p {
   } 
 }
 /* sk-cube credit: http://tobiasahlin.com/spinkit/ */
-.loader-hider {
+div.shrink {
+  height: 0;
+}
+
+#content {
   display: none;
+  opacity: 0;
+
+  -webkit-transition: opacity 2s ease-in;
+  -moz-transition: opacity 2s ease-in;
+  -ms-transition: opacity 2s ease-in;
+  -o-transition: opacity 2s ease-in;
+  transition: opacity 2s ease-in;
+}
+#content.fade-in {
+  display: inherit;
+  opacity: 1;
 }
 
 /* Parallax/Heading */
