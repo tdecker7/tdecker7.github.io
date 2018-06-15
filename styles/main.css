@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'simplifica';
+  src: url('../assets/simplifica.ttf') format('truetype');
+}
+body, a {
+  color: #FFF;
+}
+h1, h2, h3, h4, h5, h6 { 
+  font-family: 'simplifica', sans-serif;
+  font-size: 3em;
+}
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2em;
+}
+.body-link {
+  text-decoration: underline;
+  color: inherit;
+}
+.center-div {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Parallax/Heading */
+.parallax-container { height: 100vh; }
+.parallax img {
+  height: 200vh;
+  width: 100%;
+}
+.parallax-content {
+  position: relative;
+  top: 50%;
+  right: 25%;
+  -webkit-transform: translate(50%, -50%);
+  -moz-transform: translate(50%, -50%);
+  -ms-transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
+}
+.parallax-content-img {
+  display: inline-block;
+  height: 25%;
+  width: 25%;
+}
+.parallax-content-img img {
+  border-radius: 50%;
+}
+.parallax-text {
+  position: relative;
+  top: 50%;
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  -ms-transform: translateY(-25%);
+  -moz-transform: translateY(-25%);
+  -webkit-transform: translateY(-25%);
+  transform: translateY(-25%);
+  padding-left: 2.5em;
+}
+.parallax-text h1, h3 {
+  font-family: 'simplifica', sans-serif;
+  text-align: left;
+  vertical-align: middle;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+}
+.parallax-text h1 {
+  font-size: 8em;
+}
+.parallax-text h3 {
+  font-size: 4em;
+}
+
+/* About */
+div#about {
+  height: 100vh;
+  color: #000;
+}
