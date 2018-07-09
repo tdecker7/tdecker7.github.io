@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+        <link rel="stylesheet" href="./styles/animate.css">
+        <link rel="stylesheet" href="./styles/styles.css">
+        <link rel="shortcut icon" href="">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="nav-wrapper">
+                <a href="#" class="brand-logo center">VisualizR</a>
+                </div>
+            </nav>
+        </header>
+        <main class="center-align text-white">
+            <h1>
+                Welcome to VisualizR!
+            </h1>
+            <div class="list-container">
+                <ul id="sort-list"></ul>
+                <button onclick="sort()" class="btn-large navred" id="sort">Sort</button>
+            </div>
+            <div class="row">
+                <div class="col sm12 m12">
+                    <div class="card navred">
+                        <div class="card-content text-white">
+                            <span class="card-title">Sort Picker</span>
+                            <form action="#" id="picker" onchange="getSelectedSort()">
+                                <p class="inline">
+                                    <label for="bubble">
+                                        <input id="bubble" 
+                                            class="with-gap" 
+                                            name="group1" 
+                                            type="radio"
+                                            checked>
+                                        <span class="text-white">Bubble</span>
+                                    </label>
+                                </p>
+                                <p class="inline">
+                                    <label>
+                                        <input id="selection"
+                                            class="with-gap" 
+                                            name="group1" 
+                                            type="radio">
+                                        <span class="text-white">Selection</span>
+                                    </label>
+                                </p>
+                            </form>
+                            <div class="row">
+                                <form id="length-form">
+                                    <div class="input-field col s3 offset-s3">
+                                        <input 
+                                            pattern="^[0-9]{2}"
+                                            class="text-white"
+                                            type="text" 
+                                            id="array-length"
+                                            oninvalid="setCustomValidity('Please enter a two-digit number')">
+                                        <label for="array-length">Array Length</label>
+                                    </div>
+                                    <button 
+                                        onclick="initArray()" 
+                                        class="btn-large grey col s3" 
+                                        id="array">Init Array</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="./app/app.js"></script>
+    </body>
+</html>

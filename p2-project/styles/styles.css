@@ -1,0 +1,43 @@
+/**
+ *
+ * GLOBAL & Utility styles
+ *
+**/
+body {
+    background-color: #404247;
+}
+.text-center {
+    text-align: center;
+}
+.text-white {
+    color: white;
+}
+.navred {
+    background: #ee6e73;
+}
+li {
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    margin: .75em;
+}
+.inline {
+    display: inline-block;
+}
+[type="radio"]:checked + span:after, 
+[type="radio"].with-gap:checked + span:before,
+[type="radio"].with-gap:checked + span:after {
+    border: 2px solid #FFF;
+}
+[type="radio"]:checked + span:after,
+[type="radio"].with-gap:checked + span:after {
+    background-color: #FFF;
+}
+.input-field input[type=text] + label {
+    color: #FFF;
+}
+.input-field input[type=text]:focus +label {
+    color: #FFF;
+}
